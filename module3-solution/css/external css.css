@@ -1,0 +1,83 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: maroon;
+}
+#header-nav
+{
+	background-color: gray;
+	border: 0;
+}
+#header-nav>div
+{
+	margin-left: 0; 
+}
+.navbar-brand h1
+{
+	color: black;
+	font-weight: bold;
+	font-family: 'Comic Neue', cursive;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+	text-shadow: 2px 2px #ffff;
+}
+hr
+{
+	border: 1px solid black;
+	margin: 0;
+}
+#nav-list a
+{
+	background-color: black;
+	opacity: 0.8;
+	color: yellow;
+}
+#nav-list a:hover
+{
+	text-shadow: 1px 1px yellow;
+}
+/*END OF NAVIGATION BAR/HEADER*/
+
+
+
+/*MAIN CONTENT*/
+h2
+{
+	margin-top: 20px;
+	font-family: papyrus;
+	color: white;
+}
+h4{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+section
+{
+	padding: 10px;
+	padding-right: 0;
+}
+.row
+{
+	position: relative;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin: 0;	
+}
+.outer
+{
+	position: relative;
+	padding: 10px;
+}
+.box1,.box2,.box3
+{
+	background-color: #F9FABE ;
+	border:1px solid black;
+	margin-bottom: 5px;
+	padding: 10px;
+	float: left;
+}
